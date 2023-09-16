@@ -1,14 +1,13 @@
 #include "main.h"
+
 /**
- *mul - function that checks for a digit.
- * @a: a -variable
- * b variable
- * Return: Always 0
+ * mul - multiply 2 int
+ * @a: first int
+ * @b: second int
+ * Return: addition of the multiplicattion
  */
+
 int mul(int a, int b)
 {
-	int mul;
-
-	mul = a * b;
-	return (mul);
+	return (a * b);
 }
